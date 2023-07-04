@@ -1,0 +1,38 @@
+[
+    {
+      "bookName": "1 Peter",
+      "urlName": "1-peter",
+      "backgroundInfo": [
+        {"Who is Peter?": "In the opening verse, the author presents himself as Peter, an apostle of Jesus. In the gospels Peter was a complex character. He was one of Jesus' twelve disciples, and seemingly one of Jesus' closest. He was the first disciple to confess Jesus as the messiah, but he also had many blunders such as denying Jesus three times on the eve of his crucifixion. After seeing the risen Jesus, Peter played a big role in proclaiming the message of Jesus to those in Jerusalem and beyond, as recorded in Acts."},
+        {"Why did Peter write this letter?": "Peter is writing a letter to a group of believers suffering various hardships, encouraging them to persevere in the faith and guiding them in how they ought to go about their daily lives."},
+        {"Things to look out for": "Pay attention to how Peter encourages those who are suffering, and the truths about God and God's promises which are meant to spur people on even in the midst of adversity."}
+      ],
+      "scholarship": [
+        {"Is the writing too good?": ["Some people argue that Peter probably didn't write the letter, because the writing is too good. The letter supposedly exhibits a skilful grasp of Greek which Peter probably didn't have. He was a simple, Galilean fisherman after all!", "However, other scholars argue that the letter exhibits exactly the kind of Greek syntax you would expect from a Semitic-speaking author for whom Greek was a second language. In other words, Peter could have written it.", "Ultimately, most scholars don't rule out Peter as the author based on the quality of the Greek."]},
+        {"Are the events too late?": ["Some people argue that Peter probably didn't write the letter, because the persecution it speaks about came in the late first-century (or even later), after Peter would have died. This is when the Romans began to formally persecute Christians in Asia Minor. Some argue that the mention of 'Babylon' at the end of the letter (5:3) is code for Rome, and this would signal that the letter is talking about Rome's state-sanctioned persecution.", "However, others point out that the letter doesn't specify what kind of persecution is on view. The mention of 'various trials' (1:6) is ambiguous. The letter mainly speaks of verbal persecution such as 'insult' (e.g. 3:9, 14). Additionally, 'Babylon' is an Old Testament allusion that connects to the idea that the Christians are 'foreigners' in the world (1:1). It would've made sense as a metaphor about Christians living in pagan societies or under Roman rule, not only when they had begun their state-sanctioned persecutions but before then as well.", "Ultimately, the letter's description of persecution doesn't reveal a particular time period, so many scholars don't see timing as a reason to rule out Peter as the original author."]},
+        {"Slavery": ["1 Peter 2:18-25 speaks of slaves submitting to their masters, which has raised questions regarding its application to modern contexts.","Understanding the cultural and historical dynamics of slavery in the first-century Roman Empire is crucial in interpreting this passage correctly without promoting or condoning unjust systems."]},
+        {"Gender roles in marriage": ["1 Peter 3:1-6 discusses the relationship between wives and husbands, emphasizing the importance of submission and a gentle spirit. It has been a subject of extensive debate regarding gender roles, mutual submission, and the nature of authority within marriage. Different perspectives exist on the interpretation and application of these verses in contemporary contexts."]},
+        {"Spirits in prison": ["1 Peter 3:18-20 discusses Jesus preaching to 'spirits in prison' after his death and resurrection. The exact meaning of this passage has been the subject of much debate, with interpretations ranging from Jesus descending into hell to proclaim victory over evil spirits to a reference to the pre-Flood era and Noah's time. The imagery and context make this passage difficult to decipher definitively."]},
+        {"Preaching to the dead": ["1 Peter 4:6 mentions the preaching of the gospel to 'the dead'. Scholars offer different interpretations, including preaching to those who had died physically but were given an opportunity to respond to the gospel in the afterlife or preaching to people who were spiritually dead before accepting the gospel. The precise meaning and the extent of the reference to the afterlife in this verse remain uncertain."]},
+        {"Further Reading": [
+          {"author": "Karen Jobes",
+          "title": "1 Peter",
+          "otherInfo": "From the Baker Evangelical Commentary on the New Testament (BECNT) series. Published by Baker Academic, 2005.",
+          "description": "This is an evangelical, technical commentary."},
+          {"author": "Paul Achtemeier",
+          "title": "1 Peter",
+          "otherInfo": "Published by Fortress Press, 1996.",
+          "description": "This is a technical commentary which at times offers critique against popular evangelical views."},
+          {"author": "Ramsey Michaels",
+          "title": "1 Peter",
+          "otherInfo": "From the Word Biblical Commentary series. Published by Thomas Nelson, 1988.",
+          "description": "This is a technical commentary which has helpful insights into Greek syntax and vocabulary."}
+        ]}
+      ],
+      "reflection": [
+        {"On suffering.": ["How does the message of 1 Peter challenge and transform your understanding of suffering and trials in the Christian life? Reflect on how the book addresses the purpose and significance of suffering, the hope and assurance in Christ, and the call to perseverance. How does this impact your perspective on difficulties you may face personally?"]},
+        {"On identity.": ["In what ways does the message of 1 Peter shape your identity as a follower of Christ and inform your conduct in the world? Consider the themes of being a chosen people, living as aliens and exiles, and the call to holiness and submission. How does this shape your values, priorities, and interactions with others?"]},
+        {"On culture.": ["Reflecting on the overall message of 1 Peter, how does it encourage you to live out your faith in a culture or society that may be hostile or indifferent to Christianity? Consider the teachings on being a witness, showing respect and honor, and responding to persecution. How can you practically apply these teachings in your everyday life and relationships?"]}
+      ]
+    }
+]

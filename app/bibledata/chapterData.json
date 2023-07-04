@@ -1,0 +1,135 @@
+[
+    {
+      "bookName": "1 Peter",
+      "urlName": "1-peter",
+      "chapter": 1,
+      "paragraphStarts": [1, 3, 10, 13, 17, 22],
+      "quizQuestions": [
+        {
+          "question": "In verse 1, how did Peter describe those he's writing to?",
+          "options": ["exiles of the Dispersion", "saints in the city", "my lucky ones"],
+          "correctAnswer": ["exiles of the Dispersion"],
+          "correctMessage": "The phrase 'exiles' could have a double meaning. Those Peter is writing to could be Christians forced away from their homelands, but they are also exiles in the sense that their Christian way of life is foreign to those around them."
+        },
+        {
+          "question": "In verse 4, how did Peter describe the heavenly inheritance awaiting God's people?",
+          "options": ["incorruptible", "fragile", "undefiled", "almost certain", "kept in heaven for you"],
+          "correctAnswer": ["incorruptible", "undefiled", "kept in heaven for you"],
+          "correctMessage": "By reminding Christians of their future inheritance, Peter is encouraging them to endure present sufferings."
+
+        },
+        {
+          "question": "In verse 6, Peter says his readers have been put to grief in _______ trials",
+          "options": ["physical", "mental", "various", "political", "spiritual"],
+          "correctAnswer": ["various"],
+          "correctMessage": "We don't know exactly what persecutions every Christian suffered—but it likely included a mix of verbal and physical persecution."
+        }
+      ]
+    },
+    {
+      "bookName": "1 Peter",
+      "urlName": "1-peter",
+      "chapter": 2,
+      "paragraphStarts": [1, 4, 7, 9, 11, 13, 18, 23],
+      "quizQuestions": [
+        {
+          "question": "In verse 2, what did Peter exhort people to 'long' for?",
+          "options": ["delicious food", "the pure milk of the Word", "heavenly paradise"],
+          "correctAnswer": ["the pure milk of the Word"],
+          "correctMessage": "Peter sees the word of God as vital to Christian growth."
+
+        },
+        {
+          "question": "In verse 5, what does Peter describe the people as?",
+          "options": ["living stones", "a spiritual house", "a holy hill", "a sanctified citadel", "a royal priesthood", "a church"],
+          "correctAnswer": ["living stones", "a spiritual house", "a royal priesthood"],
+          "correctMessage": "Peter reminds Christians of their new identity in Christ."
+        },
+        {
+          "question": "In verses 13 and 18, Peter urges people to be ______ to authorities.",
+          "options": ["rude", "nice", "subject", "disobedient"],
+          "correctAnswer": ["subject"],
+          "correctMessage": "Being 'exiles' with a heavenly inheritance doesn't excuse Christians from submitting to earthly authorities."
+        }
+      ]
+    },
+    {
+      "bookName": "1 Peter",
+      "urlName": "1-peter",
+      "chapter": 3,
+      "paragraphStarts": [1, 7, 8, 13],
+      "quizQuestions": [
+        {
+          "question": "According to verse 4, what is very precious in God's sight?",
+          "options": ["a gentle and quiet spirit", "sacrifices of gold and silver", "braided hair"],
+          "correctAnswer": ["a gentle and quiet spirit"],
+          "correctMessage": "Peter reminds Christians that God cares about inner beauty."
+
+        },
+        {
+          "question": "In verse 7 Peter tells husbands to give ____ to their wives.",
+          "options": ["money", "honor", "food", "advice", "gold jewelry"],
+          "correctAnswer": ["honor"],
+          "correctMessage": "What Christians believe impacts how they operate within marriage."
+        },
+        {
+          "question": "In verse 18, how does Peter describe Jesus' sufferings?",
+          "options": ["for sins", "for the greater good", "the righteous for the unrighteous", "untimely"],
+          "correctAnswer": ["for sins", "the righteous for the unrighteous"],
+          "correctMessage": "Not only does Peter points Christians forward to their heavenly inheritence; he points them backward, reminding them of Christ's death for sin."
+        }
+      ]
+    },
+    {
+      "bookName": "1 Peter",
+      "urlName": "1-peter",
+      "chapter": 4,
+      "paragraphStarts": [1, 7, 12, 19],
+      "quizQuestions": [
+        {
+          "question": "How does Peter begin verse 7?",
+          "options": ["the end of all things is near", "this is just the beginning", "don't be anxious"],
+          "correctAnswer": ["the end of all things is near"],
+          "correctMessage": "While nobody claimed to know when Jesus would return, Peter believed that the end was near and that Christians had to live with a sense of urgency."
+        },
+        {
+          "question": "In verse 12, what attitude does Peter promote in response to the 'fiery trial' that has come upon the people?",
+          "options": ["be afraid", "don't be astonished", "don't be naive"],
+          "correctAnswer": ["don't be astonished"],
+          "correctMessage": "Christians shouldn't be surprised when life contains suffering. After all, Jesus suffered immensely."
+        },
+        {
+          "question": "In verse 13, what does Peter encourage the people to do in light of their partaking of Christ's sufferings?",
+          "options": ["resist", "reconsider their faith", "rejoice"],
+          "correctAnswer": ["rejoice"],
+          "correctMessage": "Peter calls Christians to rejoice even in the midst of various trials."
+        }
+      ]
+    },
+    {
+      "bookName": "1 Peter",
+      "urlName": "1-peter",
+      "chapter": 5,
+      "paragraphStarts": [1, 5, 8, 10, 12, 13],
+      "quizQuestions": [
+        {
+          "question": "In the opening section Peter calls on elders to 'shepherd the flock of God'. How does Peter say they should do this?",
+          "options": ["not under compulsion", "quickly", "not for dishonest gain", "in a domineering way", "willingly"],
+          "correctAnswer": ["not under compulsion", "not for dishonest gain", "willingly"],
+          "correctMessage": "This is viewed as a key chapter for Christian leaders to understand how they ought to lead."
+        },
+        {
+          "question": "In verse 5 Peter exhorts the younger people to clothe themselves with ______",
+          "options": ["the armour of God", "clean clothes", "humility", "kindness"],
+          "correctAnswer": ["humility"],
+          "correctMessage": "Peter reminds them that 'God resists the proud, but gives grace to the humble'."
+        },
+        {
+          "question": "In verse 8, given the reality of the Devil, what does Peter exhort the people do be?",
+          "options": ["watchful", "afraid", "sober", "relaxed", "self-controlled"],
+          "correctAnswer": ["watchful", "sober", "self-controlled"],
+          "correctMessage": "Even though Peter wants Christians to rejoice in the midst of suffering, he doesn't want them to relax—he wants them to be alert."
+        }
+      ]
+    }
+]
