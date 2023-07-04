@@ -7,9 +7,9 @@ import { AiFillHome } from 'react-icons/ai';
 
 export default function PBSNavbar() {
 
-  var prevScrollpos = window.scrollY;
-  window.onscroll = function() {
-  var currentScrollPos = window.scrollY;
+  var prevScrollpos = scrollY;
+  onscroll = function() {
+  var currentScrollPos = scrollY;
     {
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("testy").style.top = "0px"
