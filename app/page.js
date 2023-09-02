@@ -35,6 +35,9 @@ const biID = "butInstall"
 // FOR MOBILE, Insert above <Container> LATER
 //  {(navigator.userAgent.includes("Android") || navigator.userAgent.includes("iPhone")) && <AppInstallModal />}
 
+//ADD LATER {!localStorage.getItem('firstVisit') && <AboutSpiel />}
+   // {localStorage.getItem('firstVisit')==="False" && 
+
   return (
     <>
     
@@ -43,8 +46,7 @@ const biID = "butInstall"
     <div className="pbsHeader mb-3">
         <div className="pbsText">Pocket Studies</div>
     </div>
-    {!localStorage.getItem('firstVisit') && <AboutSpiel />}
-    {localStorage.getItem('firstVisit')==="False" && 
+    
     <div>
    <StandardButton href={'/1-peter'} text={"Study 1 Peter"} />
    <div style={{alignItems: "center", justifyContent: "center", width: "100%", marginBottom: "10px", marginTop: "30px"}}>
@@ -52,7 +54,7 @@ const biID = "butInstall"
    About
    </a>
    </div>
-   </div>}
+   </div>
    </Container>
     </>
   )
