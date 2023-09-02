@@ -33,7 +33,6 @@ export default function PBSNavbar() {
    }, [])
 */
 
-
 return(
 <>
 <Navbar style={{height: 70}} id="myNavbar" expand="lg" bg="white" data-bs-theme="dark">

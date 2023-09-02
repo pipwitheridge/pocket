@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next deploy"
+    "deploy": "next build && next deploy"
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
