@@ -4,8 +4,8 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Bib",
-    "short_name": "Bib",
+    "name": "Pocket Bible",
+    "short_name": "Pocket Bible",
     "description": "Simple Bible Lessons",
     "icons": [
         {

@@ -14,7 +14,9 @@ export default function RootLayout({ children }) {
     <head>
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/icon.png"></link> 
-    <meta name="theme-color" content="#fff" ></meta>
+    <meta name="theme-color" content="black" ></meta>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover, userscalable=no"></meta>
     </head>
       <body className={inter.className}>
         {children}

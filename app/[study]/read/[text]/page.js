@@ -28,9 +28,9 @@ const isFirstChapter = parseInt(currentChapter)===1
   return (
     <>
     <PBSNavbar/>
-    <Container className="col-lg-6 mb-5">
+    <Container className="mb-5">
     <h3>Chapter {currentChapter}</h3>
-    <div className="mb-3">
+    <div className="mb-5">
     {bibledata.filter(thing => thing.bookName===currentBook && thing.Chapter===parseInt(currentChapter)).map(thing => {
       return(
       <>
@@ -42,7 +42,7 @@ const isFirstChapter = parseInt(currentChapter)===1
     </div>
     <div>  
     <Link href={'/'+currentBookURL+'/read/'+(parseInt(currentChapter)+'/quiz/1')}>
-    {<StandardButton text="Review Chapter"/>}
+    {<StandardButton key={"review"+currentChapter} text="Review Chapter"/>}
     </Link>
     </div>
     </Container>

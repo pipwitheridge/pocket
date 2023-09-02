@@ -21,20 +21,18 @@ export default function Home() {
   return (
     <>
     <PBSNavbar />
-    <Container className="col-lg-6">
+    <Container>
     <h3 className="mb-3">Read</h3>
     <div>
     {bibledata.filter(thing => thing.bookName===currentBook && thing.Verse===1).map(thing => {
       return(
       <div className="mb-2">
-          <Link href={currentBookURL+"/read/"+thing.Chapter}>
-          <Button variant="outline-primary" style={{height: 50, width: "100%", alignItems: "center", justifyContent: "center", width: "100%"}}>
+          <Button href={"/"+currentBookURL+"/read/"+thing.Chapter} variant="outline-primary" style={{width: "100%", alignItems: "center", justifyContent: "center", width: "100%"}}>
           <div className="d-flex justify-content-between">
           <div>{thing.Chapter}</div>
-          <div>{localStorage.getItem("Read"+currentBook+thing.Chapter)==="Completed" ? <BsFillCheckCircleFill size={20} color='green'/> : localStorage.getItem("Read"+currentBook+((thing.Chapter)-1))==="Completed" ? <BsFillArrowRightCircleFill size={20} color='gold'/> : <></>}</div>
+          <div>{localStorage.getItem("Read"+currentBook+thing.Chapter)==="Completed" ? <BsFillCheckCircleFill size={20} color='green'/> : localStorage.getItem("Read"+currentBook+((thing.Chapter)-1))==="Completed" || parseInt(thing.Chapter)-1===0 ? <BsFillArrowRightCircleFill size={20} color='gold'/> : <></>}</div>
           </div>
           </Button>
-          </Link>
       </div>
     )})}
       <div className="chapterButton"></div>

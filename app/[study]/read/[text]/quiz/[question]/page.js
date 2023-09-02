@@ -118,7 +118,7 @@ const disableProgressButton = selectedCorrectOptions.length + selectedWrongOptio
   return (
     <>
     <PBSNavbar/>
-    <Container className="col-lg-6">
+    <Container>
     <h3 className="mb-4">Chapter {currentChapter} Quiz</h3>
     <div className="mb-4">{currentQuestionText}</div>
     <div className="mb-4">{currentQuestionOptions.map((thing) => {

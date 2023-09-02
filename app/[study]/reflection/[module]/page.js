@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <>
     <PBSNavbar/>
-    <Container className="col-lg-6">
+    <Container>
     <div className="d-grid gap-2">
    
     <div className="mb-1" style={{fontSize: 14, fontWeight: 300}}>Personal Reflection | {currentBackgroundModule} of {currentModulesLength}</div>
@@ -44,15 +44,13 @@ export default function Home() {
     })}</div>
 
     { !moduleIsLast && 
-    <Link href={'/1-peter/reflection/' + (parseInt(currentBackgroundModule)+1)}>
-    <StandardButton text="Next"/>
-    </Link>
+    <StandardButton  href={'/1-peter/reflection/' + (parseInt(currentBackgroundModule)+1)} text="Next"/>
     }
 
     { moduleIsLast && 
-    <Link onClick={finishContext} href={'/'+currentBookURL}>
-    <StandardButton text="Finish" />
-    </Link>
+    <div onClick={finishContext}>
+    <StandardButton href={'/'+currentBookURL} text="Finish" />
+    </div>
     }
     </div>
     </Container>

@@ -1,3 +1,5 @@
+'use client' 
+
 import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -7,26 +9,35 @@ import { AiFillHome } from 'react-icons/ai';
 
 export default function PBSNavbar() {
 
-  var prevScrollpos = window.scrollY;
-  window.onscroll = function() {
-  var currentScrollPos = window.scrollY;
-    {
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("testy").style.top = "0px"
-      } else {
-        document.getElementById("testy").style.top = "-100px"
+  /*useEffect(()=> {
+    window.onscroll = function () {
+       scrollFunction();
+     };
+     function scrollFunction() {
+      var prevScrollpos = window.scrollY;
+      window.onscroll = function() {
+      var currentScrollPos = window.scrollY;
+        {
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("testy").style.top = "0px"
+          } else {
+            document.getElementById("testy").style.top = "-100px"
+          }
+          prevScrollpos = currentScrollPos;
+        }
       }
-      prevScrollpos = currentScrollPos;
-    }
-    
-  }
+     }
+   return ()=> {
+    //remove the event listener
+   }
+   }, [])
+*/
+
 
 return(
 <>
-<Navbar id="testy" expand="lg" bg="dark" data-bs-theme="dark">
-      <Container >
-        <Navbar.Brand href="/" ><AiFillHome size={25} /></Navbar.Brand>
-      </Container>
+<Navbar style={{height: 70}} id="myNavbar" expand="lg" bg="white" data-bs-theme="dark">
+        <Navbar.Brand href="/" ><AiFillHome color="black" size={25} style={{marginLeft: "10px"}} /></Navbar.Brand>
 </Navbar>
 </>
 )

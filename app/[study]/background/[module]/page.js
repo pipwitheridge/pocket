@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <>
     <PBSNavbar/>
-    <Container className="col-lg-6">
+    <Container>
     <div className="d-grid gap-2">
    
     <div className="mb-1" style={{fontSize: 14, fontWeight: 300}}>Understand Background | {currentBackgroundModule} of {currentModulesLength}</div>
@@ -43,13 +43,13 @@ export default function Home() {
 
     { !moduleIsLast && 
     <Link href={'/1-peter/background/' + (parseInt(currentBackgroundModule)+1)}>
-    <StandardButton text="Next"/>
+    <StandardButton key="next" text="Next"/>
     </Link>
     }
 
     { moduleIsLast && 
     <Link onClick={finishContext} href={'/'+currentBookURL}>
-    <StandardButton text="Finish" />
+    <StandardButton key ="finish" text="Finish" />
     </Link>
     }
     </div>

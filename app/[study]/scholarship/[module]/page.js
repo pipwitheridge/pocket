@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <>
     <PBSNavbar/>
-    <Container className="col-lg-6">
+    <Container>
     <div className="d-grid gap-2">
    
     <div className="mb-1" style={{fontSize: 14, fontWeight: 300}}>Contemporary Scholarship | {currentBackgroundModule} of {currentModulesLength}</div>
